@@ -84,10 +84,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('𝙂𝙍𝙊𝙐𝙋 💬', url='https://t.me/movieshub_group')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('📣 𝘾𝙃𝘼𝙉𝙉𝙀𝙇', url='https://t.me/MOVIES_HUB66')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -117,11 +117,11 @@ async def start(bot, message):
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("More Botz", url="https://t.me/MT_Botz")
+                InlineKeyboardButton("𝙎𝙀𝘼𝙍𝘾𝙃 𝙃𝙀𝙍𝙀", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("⚠️ 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/movieshub_group")
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("📣 𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/MOVIES_HUB66"),
+                InlineKeyboardButton("𝘼𝘽𝙊𝙐𝙏", callback_data="about")
                 ]]
             )
         )
